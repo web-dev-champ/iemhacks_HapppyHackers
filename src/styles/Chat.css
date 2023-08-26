@@ -7,6 +7,7 @@
     border-radius: 5px;
     overflow: hidden;
     border: 2px solid #3b5998;
+    margin: auto;
 }
 .header{
     background-color: #3b5998;
