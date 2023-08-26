@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .app-header {
@@ -27,7 +27,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .room label {
@@ -59,21 +58,20 @@ body {
   color: white;
   cursor: pointer;
 }
-.room button:hover{
+.room button:hover {
   background-color: #2a4889;
 }
 
 .sign-out {
   margin-top: 50px;
-  align-items: center;
-  padding-left:43.3% ;
+  text-align: center;
 }
-.Sbut{
-  width: 210px;
+.Sbut {
+  width: 200px;
   height: 40px;
   border: none;
   border-radius: 6px;
-  padding-left: 5px;
+  padding-left: 0px;
   font-size: 20px;
   text-align: center;
   margin: none;
@@ -81,6 +79,6 @@ body {
   color: white;
   cursor: pointer;
 }
-.Sbut:hover{
+.Sbut:hover {
   background-color: red;
 }
