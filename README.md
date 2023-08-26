@@ -8,7 +8,7 @@ A simple chatroom built with React.
 1. Clone the repository:
 
 ```
-git clone https://github.com/[your-username]/react-chatroom.git
+git clone https://github.com/web-dev-champ/iemhacks_HappyHackers.git
 ```
 
 2. Install the dependencies:
