@@ -6,6 +6,7 @@ import { useState } from "react";
 import Cookies from "universal-cookie";
 import {signOut} from "firebase/auth";
 import {auth} from "./firebase-config";
+import Navi from "./components/Navi"
 const cookies = new Cookies();
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Chat room={room} />
       ) : (
         <div className="room">
+          <Navi />
           <label>Enter Room Name : </label>
           <input ref={roomInputRef} />
           <button onClick={() => setRoom(roomInputRef.current.value)}>
