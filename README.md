@@ -3,6 +3,13 @@
 
 A simple chatroom built with React.
 
+#Deploy
+```
+
+Check our website at https://chatapp-a9013.web.app/
+
+```
+
 ## Getting Started
 
 1. Clone the repository:
