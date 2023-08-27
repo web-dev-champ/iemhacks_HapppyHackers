@@ -1,6 +1,7 @@
 body {
   padding: 5px;
   margin: 10px;
+  background-image:  url(./styles/img3.jpg);
 }
 
 .App {
@@ -10,6 +11,7 @@ body {
   height: 100vh;
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
 .app-header {
