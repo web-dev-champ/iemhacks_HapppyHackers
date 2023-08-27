@@ -39,7 +39,7 @@ You can use your app at http://localhost:3000
 
 ## Usage
 
-To use the chatroom, simply create an account and start chatting!
+To use the chatroom, simply create an account, enter chatroom and start chatting!
 
 
 ## Contributing
