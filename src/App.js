@@ -6,6 +6,7 @@ import { useState } from "react";
 import Cookies from "universal-cookie";
 import {signOut} from "firebase/auth";
 import {auth} from "./firebase-config";
+import Navi from "./components/Navi"
 const cookies = new Cookies();
 
 function App() {
@@ -14,12 +15,11 @@ function App() {
 
   const roomInputRef = useRef(null);
 
-  const signUserOut= async ()=>{
+  const signUserOut = async () => {
     await signOut(auth);
     cookies.remove("auth-token");
     setIsAuth(false);
     setRoom(null);
-
   };
 
   if (!isAuth) {
@@ -35,6 +35,7 @@ function App() {
         <Chat room={room} />
       ) : (
         <div className="room">
+          <Navi />
           <label>Enter Room Name : </label>
           <input ref={roomInputRef} />
           <button onClick={() => setRoom(roomInputRef.current.value)}>
@@ -43,9 +44,10 @@ function App() {
         </div>
       )}
       <div className="sign-out">
-        <button className="Sbut" onClick={signUserOut}>Sign Out</button>
+        <button className="Sbut" onClick={signUserOut}>
+          Sign Out
+        </button>
       </div>
-
     </div>
   );
 }

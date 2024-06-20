@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { addDoc, collection, serverTimestamp, enSnapshot, onSnapshot, query,where,orderBy } from "firebase/firestore";
+import { addDoc, collection, serverTimestamp, onSnapshot, query,where,orderBy } from "firebase/firestore";
 import { auth, db } from "../firebase-config";
 import '../styles/Chat.css'
 export const Chat = (props) => {

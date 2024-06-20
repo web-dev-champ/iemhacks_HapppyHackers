@@ -9,6 +9,7 @@
     border-radius: 5px;
     overflow: hidden;
     border: 2px solid #3b5998;
+    margin: auto;
 }
 .header{
     background-color: #3b5998;
@@ -59,3 +60,34 @@
     font-size: 16px;
     font-weight: bold;
   }
+  .navibar{
+            display: flex;
+        justify-content: space-between;
+        align-items: center;
+        vertical-align: middle;
+        height: 8vh;
+        box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+        background-color: #3b5998;
+        border-radius: 10px;
+        padding-left: 10px;
+        border: solid 1px #000;
+
+      }
+.navilist-items
+{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px;
+        width: 80%;
+        color:#fff;
+        font-size: medium;
+        padding: 10px;
+        cursor: pointer;
+        
+        border-radius: 5px;
+}
+.navilist-items:hover
+{
+    background-color: #243f7a;
+}
