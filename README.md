@@ -6,9 +6,6 @@ A simple chatroom built with React & Firebase.
 
 
 
-## Deployment
-
-To use this project visit at https://chatapp-a9013.web.app/
 
 ## Video Demo
 
